@@ -32,7 +32,7 @@ const (
 // Ethereum chain IDs
 const (
 	MainnetChainID = 1
-	GoerliChainID  = 5
+	GoerliChainID  = 41
 	GanacheChainID = 1337
 	HardhatChainID = 31337
 )
