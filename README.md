@@ -43,3 +43,19 @@ If you'd like to contribute, feel free to fork the repo and make a pull request.
 The work on this project has been funded previously by community grants. It is currently not funded; if you'd like to donate, you can do so at the following address:
 - XMR `8AYdE4Tzq3rQYh7QNHfHz8HqcgT9kcTcHMcRHL1LhVtqYwah27zwPYGdesBgK5PATvGBAd4BC1t2NfrqKQqDguybQrC1tZb`
 - ETH `0x39D3b8cc9D08fD83360dDaCFe054b7D6e7f2cA08`
+
+
+## Running on Telos Testnet
+
+## Use the dockerfile to build the image, then install the xmr cli. once done start your swap-d with these arguements 
+
+```
+
+
+docker build -t my-ubuntu-image .
+
+docker run -it my-ubuntu-image /bin/bash
+```
+
+
+./bin/swapd --env stagenet --ethereum-endpoint=https://testnet.telos.net/evm --contract-address=0xf4430c9645215E3196427D6E83B57F9fC02DB930
